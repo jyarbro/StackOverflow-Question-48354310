@@ -3,4 +3,6 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @using Microsoft.Extensions.Options;
-@inject IOptions<ViewConfiguration> ViewConfiguration
+
+@* Please rename this variable to something more appropriate to your application: *@
+@inject IOptions<ViewConfiguration> InjectedViewConfig
